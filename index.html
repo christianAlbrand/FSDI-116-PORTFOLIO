@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/section.css">
     <title>116 Portfolio</title>
 </head>
 
 <body>
 
-    <header class="center center-header-sections">
-        <div class="logo-container">
-            <a href="">
-                <h2>Christian</h2>
-            </a>
-        </div>
+    <header class="center-row">
         <nav>
             <!-- Hamburger button -->
             <input type="checkbox" id="nav-check">
@@ -31,7 +30,7 @@
 
 
             <!-- Links or Options of the Menu -->
-            <div class="nav-link center">
+            <div class="nav-link center-row">
                 <a href="#">About Me</a>
                 <a href="#">Projects</a>
                 <a href="#">Experience</a>
@@ -39,18 +38,36 @@
             </div>
 
         </nav>
+        <div></div>
     </header>
 
-    <section>
-        <!-- About Section -->
+    <section class="about-section center-row">
+        <div class="about-image-container center-row">
+            <img src="./img/my-photo.png" alt="my amazing picture">
+        </div>
+        <div class="about-description-container center-column">
+            <h1>My rol as developer</h1>
+            <h2>Christian Albrand Aguirre</h2>
 
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, ipsum numquam nihil labore ipsam iste itaque provident aperiam animi amet, velit optio perspiciatis ratione! Possimus laborum dolor quisquam! Obcaecati, dolorem.
+            Unde sint quidem quisquam, recusandae quas optio velit dolorum, explicabo quaerat porro praesentium, rem veniam illum temporibus doloremque perspiciatis ipsam necessitatibus. Sequi quia alias expedita ullam eius vel pariatur minus.
+            Consectetur natus corrupti sit reprehenderit laborum? Eum et commodi fugiat eius assumenda incidunt enim facilis. Corporis sapiente excepturi hic praesentium aliquam porro, velit alias fugit. Harum autem quisquam aliquid pariatur.</p>
+        </div>
     </section>
-
-    <h1>Title</h1>
-    <h2>Subtitle</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, aliquam.</p>
-    <label class="text-label">Skill/Technology</label>
-
+    <section class="skills-section center-column">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+            <label class="text-label">Skill</label>
+        </div>
+    </section>
 </body>
-
 </html>

@@ -6,8 +6,8 @@
     --background-color: #a0cdeb;
     --surface-solor: #2E4559;
 
-    --lobster-font: 'Lobster', sans-serif;
-    --sans-font: 'DM Sans', sans-serif;
+    --lobster-font: "Lobster Two", serif;
+    --sans-font: "Open Sans", serif;
 }
 
 .center-column{
@@ -17,7 +17,7 @@
     align-items: center;
 }
 
-.center {
+.center-row {
     display: flex;
     justify-content: center;
     align-items: center;

@@ -3,6 +3,26 @@
     html {
         font-size: 12px;
     }
+
+    /* About Me Section */
+    .about-section{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .about-image-container{
+        width: 70%;
+    }
+
+    .about-description-container{
+        width: 85%;
+        margin-top: 3rem;
+    }
+
+    /* Skills Section */
+    .skills-list{
+        width: 70%;
+    }
 }
 
 /* phone */
@@ -38,9 +58,5 @@
     #nav-check:checked~.nav-link {
         height: auto;
         overflow: auto;
-    }
-
-    .logo-container a h2{
-        display: none;
     }
 }
